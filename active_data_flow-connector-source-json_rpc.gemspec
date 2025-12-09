@@ -3,14 +3,14 @@
 require_relative "lib/active_data_flow/connector/source/json_rpc/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "active_dataflow-connector-source-json_rpc"
+  spec.name = "active_data_flow-connector-source-json_rpc"
   spec.version = ActiveDataFlow::Connector::Source::JsonRpc::VERSION
   spec.authors = ["ActiveDataFlow Team"]
   spec.email = ["team@activedataflow.dev"]
 
   spec.summary = "JSON-RPC source connector for ActiveDataFlow"
   spec.description = "Provides a JSON-RPC server source connector for ActiveDataFlow that receives data via JSON-RPC calls"
-  spec.homepage = "https://github.com/magenticmarketactualskill/active_dataflow-connector-source-json_rpc"
+  spec.homepage = "https://github.com/magenticmarketactualskill/active_data_flow-connector-source-json_rpc"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.3.6"
 
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "jimson", "~> 0.10"
   spec.add_dependency "activesupport", ">= 6.0"
   spec.add_dependency "active_data_flow", ">= 0.1"
-  spec.add_dependency "active_dataflow-connector-json_rpc", "~> 0.1"
+  spec.add_dependency "active_data_flow-connector-json_rpc", "~> 0.1"
 
   # Development dependencies
   spec.add_development_dependency "rspec", "~> 3.12"

@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in active_dataflow-connector-source-json_rpc.gemspec
+# Specify your gem's dependencies in active_data_flow-connector-source-json_rpc.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

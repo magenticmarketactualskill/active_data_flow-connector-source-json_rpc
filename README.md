@@ -7,7 +7,7 @@ A source connector for ActiveDataFlow that receives data via JSON-RPC server. Th
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_dataflow-connector-source-json_rpc'
+gem 'active_data_flow-connector-source-json_rpc'
 ```
 
 And then execute:
@@ -218,7 +218,7 @@ bundle exec cucumber
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/magenticmarketactualskill/active_dataflow-connector-source-json_rpc.
+Bug reports and pull requests are welcome on GitHub at https://github.com/magenticmarketactualskill/active_data_flow-connector-source-json_rpc.
 
 ## License
 
